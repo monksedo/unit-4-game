@@ -103,7 +103,7 @@ img:active {
 
 /** Setup game scores background, image, and dimention **/
 .game-score-box {
-  margin: 2rem auto;
+  margin: 2rem auto 5rem auto;
   background-image: linear-gradient(to right, #7caaf0, #0e58ac);
   padding: 10 20px;
   box-shadow: 0 1rem 2rem black;
