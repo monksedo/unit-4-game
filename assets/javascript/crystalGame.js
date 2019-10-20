@@ -38,7 +38,7 @@ function resetGame(){
       } 
 // Display winnnig Game
 function winningGame() {
-  alert("Congrats! You won!");
+  alert("Well done! You won!");
   wins++; 
   $('#wins').text(wins);
   resetGame();
@@ -56,10 +56,10 @@ alert ("Game Over!");
     console.log("New playerTotal= " + playerTotal);
     $('#totalScore').text(playerTotal); 
           //Win & lose conditions
-        if (playerTotal == random){
+        if (playerTotal == randomStart){
           winningGame();
         }
-        else if ( playerTotal > random){
+        else if ( playerTotal > randomStart){
           lossingGame();
         }   
   })  
@@ -67,10 +67,10 @@ alert ("Game Over!");
     playerTotal = playerTotal + green;
     console.log("New playerTotal= " + playerTotal);
     $('#totalScore').text(playerTotal); 
-        if (playerTotal == random){
+        if (playerTotal == randomStart){
           winningGame();
         }
-        else if ( playerTotal > random){
+        else if ( playerTotal > randomStart){
           lossingGame();
         } 
   })  
