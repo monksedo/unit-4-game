@@ -42,11 +42,6 @@ GIT & GITHUB
 ![App Screen 01](assets/images/game02.png)
 
 ## Testing Screencast
-![Testing](<!-- copy and paste. Modify height and width if desired. -->
-<iframe class="embeddedObject shadow resizable" name="embedded_content" scrolling="no" frameborder="0" type="text/html" 
-        style="overflow:hidden;" src="https://www.screencast.com/users/ChrisNguyen6384/folders/Camtasia%20Studio/media/6f2d4678-097c-438e-8e13-619dc77276ae/embed" height="500" width="600" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-)
+[Testing](https://www.screencast.com/t/jYtsxfktb9)
 
-## Testing Link
-![](https://www.screencast.com/t/jYtsxfktb9)
 
