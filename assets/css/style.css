@@ -57,6 +57,7 @@ h1 {
   text-shadow: .5rem .5rem .5rem #ffffffa9;
 }
 
+/** Set nanimation effect for heading tags **/
 h1:hover, 
 h2:hover, 
 h3:hover {
@@ -64,14 +65,17 @@ h3:hover {
   transform: skewY(2deg) skewX(15deg) scale(1.1);
 }
 
+/** Setu front size for h2 tag **/
 h2 {
   font-size: 2.5rem;
 }
 
+/** Setu front size for h3 tag **/
 h3 {
   font-size: 2rem;
 }
 
+/** Setup animation effect for crystal images **/
 img:hover {
   transition: all .2s;
   transform: translateY(-.5rem);
@@ -79,43 +83,46 @@ img:hover {
   opacity: 20;
 }
 
+/** Setup animation effect for crystal images **/
 img:active {
   transform: translateY(0);
 }
 
-
+/** Setup game instruction background, image, and dimention **/
 .intruction-text-background {
-  width: 70%;
   margin: 30px auto;
   background-image: linear-gradient(to right, #7caaf0, #0e58ac);
   padding: 10px 20px;
   box-shadow: 0 1rem 2rem black;
 }
+
+/** Setup game text instruction dimention **/
 .text-instruction {
-  max-width: 100%;
   margin: 20px auto;
 }
 
+/** Setup game scores background, image, and dimention **/
 .game-score-box {
-  width: 70%;
-  margin: 20px auto;
+  margin: 2rem auto;
   background-image: linear-gradient(to right, #7caaf0, #0e58ac);
-  padding: 10px 20px;
+  padding: 10 20px;
   box-shadow: 0 1rem 2rem black;
 }
 
+/** Setup page layout row dimention **/
 .row {
-  max-width: 100%;
   display: flex;
-  margin: 20px auto;
+  margin: 2rem auto;
   text-align: center;
 }
 
+/** Setup page column layout and dimention **/
 .col {
-  padding: 5px 2rem;
+  padding: .5rem 2rem;
   flex-direction: row;
 }
 
+/** Set game score font color **/
 #randomScore,
 #totalScore,
 #wins,
