@@ -1,10 +1,13 @@
 # unit-4-game
 
 ## Crystal Collection Game
-The goal for the assignment is the create an interactive fun game for web browsers,the app is dynamically update the HTML page with JQuery DOM manipulation library, the will be coding in HTML, CSS, Javascript and JQuery.
+The goal for the assignment is the create an interactive fun game for the web browsers, the app will be able to dynamically update the HTML page with game computer generated game score, user wins, losses and total game score using Javascript and JQuery DOM manipulation library, the tool using for this project is HTML, CSS, Javascript and JQuery.
 
 ## Technology Used
 HTML, CSS, JavaScript, & JQuery
+
+## Version Control
+GIT & GITHUB
 
 ## Game rules
 <h2>How to play?</h2>
