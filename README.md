@@ -24,21 +24,21 @@ GIT & GITHUB
 [Click here to start](https://monksedo.github.io/unit-4-game/)
 
 ## CSS Code Snippets
-![Code Block 1](images/css01.png)
+![Code Block 1](assets/images/css01.png)
 
 ## JavaScrip Code 01
-![Code Block 01](images/js01.png)
+![Code Block 01](assets/images/js01.png)
 
 ## JavaScrip Code 02
-![Code Block 01](images/js02.png)
+![Code Block 01](assets/images/js02.png)
 
 ## JavaScrip Code 03
-![Code Block 01](images/js03.png)
+![Code Block 01](assets/images/js03.png)
 
 ## App Screen 01
-![App Screen 01](images/game01.png)
+![App Screen 01](assets/images/game01.png)
 
 ## App Screen 02
-![App Screen 01](images/game02.png)
+![App Screen 01](assets/images/game02.png)
 
 
