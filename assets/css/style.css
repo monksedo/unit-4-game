@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.7;
+  text-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.text-game-title {
+  display: flex;
+  background-color: #1f14bb;
+  background-image: url("../images/Background.png");
+  background-size: cover;
+  box-shadow: .5rem .5rem 1rem black;
+  height: 200px;
+  text-align: center;
+}
+
+.img-crystal {
+  width: 100% ;
+}
+
+h1 {
+  margin: 60px auto;
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #df104e;
+  text-shadow: .5rem .5rem .5rem #e4e7b3a9;
+}
+
+h1:hover, 
+h2:hover, 
+h3:hover {
+  transition: all .2s;
+  transform: skewY(2deg) skewX(15deg) scale(1.1);
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+img:hover {
+  transition: all .2s;
+  transform: translateY(-.5rem);
+  transform: scaleX(1.1) scaleY(1.1);
+  opacity: 20;
+}
+
+img:active {
+  transform: translateY(0);
+}
+
+
+.intruction-text-background {
+  width: 70%;
+  margin: 30px auto;
+  background-image: linear-gradient(to right, #7caaf0, #0e58ac);
+  padding: 10px 20px;
+  box-shadow: 0 1rem 2rem black;
+}
+.text-instruction {
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+.game-score-box {
+  width: 70%;
+  margin: 20px auto;
+  background-image: linear-gradient(to right, #7caaf0, #0e58ac);
+  padding: 10px 20px;
+  box-shadow: 0 1rem 2rem black;
+}
+
+.row {
+  max-width: 100%;
+  display: flex;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.col {
+  padding: 5px 2rem;
+  flex-direction: row;
+}
+
+#randomScore,
+#totalScore,
+#wins,
+#losses {
+  color: #1cee74;
+}
