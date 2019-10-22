@@ -3,7 +3,7 @@
 
 $(document).ready(function () {
   // Starting the game with a random score
-  var randomStart = Math.floor(Math.random() * 102 + 19)
+  var randomStart = Math.floor(Math.random() * 120 + 19)
 
   // Print randome start number to HTML id=randomScore
   $('#randomScore').text(randomStart);
@@ -26,7 +26,7 @@ $(document).ready(function () {
 
   // Restart new game
   function resetGame() {
-    randomStart = Math.floor(Math.random() * 102 + 19);
+    randomStart = Math.floor(Math.random() * 120 + 19);
     console.log(randomStart) // Console log randomStart 
     $('#randomScore').text(randomStart);
     purple = Math.floor(Math.random() * 12 + 1);
@@ -51,11 +51,11 @@ $(document).ready(function () {
     $('#losses').text(losses);
     resetGame()
   }
-  
+
   // Event listenning - run when there is a click on the image 
   $('.purple').on('click', function () {
     playerTotal = playerTotal + purple;
-    console.log("Total Score = " + playerTotal); 
+    console.log("Total Score = " + playerTotal);
     $('#totalScore').text(playerTotal);
     //Win & lose conditions
     if (playerTotal == randomStart) {

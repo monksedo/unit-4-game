@@ -37,7 +37,7 @@ body {
   background-color: #1f14bb;
   background-image: url("../images/Background03.png");
   background-size: cover;
-  box-shadow: .5rem .5rem 1rem black;
+  box-shadow: 0 1rem 2rem black;
   height: 200px;
   text-align: center;
 }
@@ -92,20 +92,20 @@ img:active {
 .intruction-text-background {
   margin: 30px auto;
   background-image: linear-gradient(to right, #7caaf0, #0e58ac);
-  padding: 10px 20px;
+  padding: 2rem 2rem;
   box-shadow: 0 1rem 2rem black;
 }
 
 /** Setup game text instruction dimention **/
 .text-instruction {
-  margin: 20px auto;
+  margin: 2rem auto;
 }
 
 /** Setup game scores background, image, and dimention **/
 .game-score-box {
   margin: 2rem auto 5rem auto;
   background-image: linear-gradient(to right, #7caaf0, #0e58ac);
-  padding: 10 20px;
+  padding: 1rem 2rem;
   box-shadow: 0 1rem 2rem black;
 }
 
