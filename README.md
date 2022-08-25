@@ -21,7 +21,7 @@ GIT & GITHUB
 [jQuery Assignment - Intruction](https://ucb.bootcampcontent.com/UCB-Coding-Bootcamp/UCB-VIRT-FSF-PT-09-2019-U-O/blob/master/course-content/04-jquery/homework/Instructions/homework_instructions.md)
 
 ## Start the Game
-[Click here to start](https://monksedo.github.io/unit-4-game/)
+[Click here to start](https://tvn9.github.io/unit-4-game/)
 
 ## CSS Code Snippets
 ![Code Block 1](assets/images/css01.png)
